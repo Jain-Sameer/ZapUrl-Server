@@ -1,4 +1,4 @@
-package com.sameer.zapurl.security;
+package com.sameer.zapurl.security.jwt;
 
 import com.sameer.zapurl.service.UserDetailsImpl;
 import io.jsonwebtoken.JwtException;

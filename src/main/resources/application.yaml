@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: zapurl-backend
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/zapurldb
+    username: root
+    password: root
+
+  cache:
+    type: simple
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    com.sameer.zapurl: DEBUG
+
+jwt:
+  expiration: 172800000
+  secret: "64 Byte Secret Key -> 64 Characters"
+
+frontend:
+  url: http://localhost:5173

@@ -1,4 +1,4 @@
-package com.sameer.zapurl.security;
+package com.sameer.zapurl.security.jwt;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
